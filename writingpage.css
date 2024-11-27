@@ -1,0 +1,393 @@
+body {
+    width: 1920px;
+    height: 1457px;
+    background: #f4f5f7;
+}
+.head {
+    display: flex;
+    width: 1920px;
+    height: 104px;
+    align-items: center;
+    position: relative;
+    border: 0px 0px 1px 0px;
+    border-bottom: 1px solid #000000;
+}
+.title {
+    font-size: 32px;
+    width: 206px;
+    height: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+.back {
+    position: absolute;
+    width: 10.93px;
+    height: 18.89px;
+    top: 42.53px;
+    right: 1211.16px;
+    gap: 0px;
+    opacity: 0px;
+}
+.img1 {
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 1196px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    border-radius: 100%;
+}
+.bodytitle {
+    width: auto;
+    height: 31px;
+    margin: 24px auto auto 688px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+}
+.flextitle {
+    display: flex;
+    flex-direction: row;
+}
+.img2 {
+    width: 36px;
+    height: 36px;
+    margin: 12px 10px 24px 688px;
+    border-radius: 100%;
+}
+.userid {
+    height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin-top: 20px;
+}
+.date {
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    margin-top: 22px;
+    margin-left: 24px;
+}
+.fix {
+    width: 50px;
+    height: 27px;
+    padding: 2px 12px 2px 12px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #aca0eb;
+    margin-top: 16px;
+}
+.del {
+    width: 50px;
+    height: 27px;
+    padding: 2px 12px 2px 12px;
+    gap: 0px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #aca0eb;
+    margin-top: 16px;
+    margin-left: 8px;
+}
+.buttonflex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 142px;
+    width: 128px;
+    height: 87px;
+
+}
+.hr1 {
+    width: 592px;
+    height: 0px;
+    margin-left: 664px;
+    gap: 0px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #00000029;
+}
+.img3 {
+    width: 544px;
+    height: 306px;
+    gap: 0px;
+    opacity: 0px;
+    background: #d9d9d9;
+    margin: 24px 688px;
+}
+.content {
+    width: 544px;
+    /* height: 231px; TODO: 댓글 길이변경에 따라 고쳐야될수도 있음*/
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.15px;
+    text-align: left;
+    margin: 24px 688px;
+}
+.cntflex {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 783px;
+    text-align: center;
+}
+.cntgood {
+    width: 116px;
+    height: 77px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #d9d9d9;
+}
+.cntshow {
+    width: 116px;
+    height: 77px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #d9d9d9;
+    margin-left: 8px;
+}
+.cntcomnt {
+    width: 116px;
+    height: 77px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #d9d9d9;
+    margin-left: 8px;
+}
+.number {
+    margin: 12px 41px 1px 40px;
+    width: 35px;
+    height: 26px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+}
+.text {
+    width: 56px;
+    height: 25px;
+    margin: 0px 30px 13px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25.04px;
+    text-align: center;
+}
+.hr2 {
+    width: 592px;
+    height: 0px;
+    margin-top: 32px;
+    margin-left: 664px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #00000029;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexcomment {
+    width: 592px;
+    height: 169px;
+    margin-top: 32px;
+    margin-left: 664px;
+    margin-bottom: 8px;
+    gap: 0px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+}
+.inputbox {
+    width: 544px;
+    height: 94px;
+    margin: 24px 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.15px;
+    text-align: left;
+}
+.flexcomment > hr {
+    width: 592px;
+    height: 0px;
+    gap: 0px;
+    margin: 0 0 0 0;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #00000029;
+}
+.flexcomment > button {
+    width: 138px;
+    height: 39px;
+    margin: 6px 8px 6px 446px;
+    gap: 0px;
+    border-radius: 16px 16px 16px 16px;
+    opacity: 0px;
+    background: #aca0eb;
+}
+.flexcomment2 {
+    display: flex;
+    flex-direction: row;
+    width: 544px;
+    height: 65px;
+    margin: 16px 688px 0px 688px;
+}
+.flexcomment3 {
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+}
+
+.img4 {
+    width: 36px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100%;
+}
+.nickname {
+    width: 79px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+}
+.date2 {
+    margin-top: 10px;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: right;
+    width: 133px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+}
+.textmin {
+    width: 236px;
+    height: 21px;
+    margin-top: 8px;
+    margin-left: 46px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.15px;
+    text-align: left;
+}
+.flexcomment4 {
+    display: flex;
+    flex-direction: row;
+}
+.flexcomment5 {
+    display: flex;
+    flex-direction: row;
+}
+#delcontent {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1457px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#delcomment {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1457px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.modal_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408px;
+    height: 242px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 0px;
+    background: #ffffff;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+.modal > h2 {
+    size: 24px;
+    margin: 48px auto 0px;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.modal > p {
+    margin: 24px auto 0px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+.flexbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flexbutton > button {
+    margin-top: 24px;
+    width: 127px;
+    height: 44px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+.modalbutton1 {
+    background: #242424;
+    color: white;
+    margin-right: 16px;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.modalbutton2 {
+    background: #c4a5fa;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

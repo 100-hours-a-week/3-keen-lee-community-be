@@ -1,0 +1,29 @@
+{
+    "name": "html",
+    "version": "1.0.0",
+    "main": "feserver.js",
+    "scripts": {
+        "start": "node feserver.js",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "format": "prettier --write .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "type": "module"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@eslint/eslintrc": "^3.1.0",
+        "cors": "^2.8.5",
+        "eslint-config-airbnb": "^19.0.4",
+        "express": "^4.21.1",
+        "nodemon": "^3.1.7",
+        "pm2": "^5.4.2",
+        "prettier": "^3.3.3"
+    },
+    "description": "",
+    "devDependencies": {
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1"
+    }
+}

@@ -1,0 +1,326 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 1920px;
+    height: 1080px;
+    background: #f4f5f7;
+}
+.head {
+    display: flex;
+    width: 1920px;
+    height: 104px;
+    align-items: center;
+    position: relative;
+    border: 0px 0px 1px 0px;
+    border-bottom: 1px solid #000000;
+}
+.title {
+    font-size: 32px;
+    width: 206px;
+    height: 32px;
+    margin: 36px auto;
+    text-align: center;
+}
+.img1 {
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 99px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    border-radius: 100%;
+}
+.felx1 {
+    position: absolute;
+    width: 163px;
+    height: 219px;
+    top: 0px;
+    left: 1097px;
+    display: flex;
+    flex-direction: column;
+}
+.felx2 > div {
+    width: 67px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+    width: Hug (115px) px;
+    height: Hug (35px) px;
+    padding: 10px 24px 10px 24px;
+    gap: 8px;
+    opacity: 0px;
+    background: #d9d9d9;
+}
+.felx2 {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    top: 44px;
+    align-items: center;
+}
+.bodytitle {
+    width: 166px;
+    height: 38px;
+    margin-top: 161px;
+    margin-left: 877px;
+    gap: 0px;
+    opacity: 0px;
+    size: 32px;
+    font-weight: 700;
+    line-height: 38.19px;
+    text-align: center;
+    font-family: Pretendard;
+}
+.bodytext {
+    width: 77px;
+    height: 18px;
+    margin-top: 12px;
+    margin-left: 783px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    text-align: left;
+    position: relative;
+}
+.img2 {
+    width: 149px;
+    height: 149px;
+    margin-top: 22px;
+    margin-left: 885px;
+    gap: 0px;
+    opacity: 0px;
+    background: #4646468c;
+    position: relative;
+    border-radius: 100%;
+}
+.flex3 {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    height: 168px;
+    margin-top: 10px;
+    margin-left: 764px;
+    position: relative;
+}
+.emailtitle {
+    width: 39px;
+    height: 18px;
+    top: 26px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    text-align: left;
+    position: absolute;
+}
+.emailtext {
+    width: 153px;
+    height: 17px;
+    top: 60px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    text-align: left;
+    position: absolute;
+}
+.nicknametitle {
+    width: 39px;
+    height: 18px;
+    top: 93px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.9px;
+    text-align: left;
+    position: absolute;
+}
+.inputbox {
+    width: 355px;
+    height: 33px;
+    top: 119px;
+    left: 19px;
+    gap: 0px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #000000;
+    position: absolute;
+}
+.helper {
+    width: 71px;
+    height: 15px;
+    top: 152px;
+    left: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    position: absolute;
+    color: #ff0000;
+}
+.button {
+    width: 355px;
+    height: 33px;
+    margin-top: 11px;
+    margin-left: 783px;
+    gap: 0px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;
+    background: #aca0eb;
+    color: #ffffff;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.71px;
+    text-align: center;
+    position: relative;
+}
+.felx4 {
+    width: 327px;
+    height: 41px;
+    margin-top: 4px;
+    margin-left: 787px;
+    gap: 0px;
+    opacity: 0px;
+}
+.userout {
+    width: 52px;
+    height: 17px;
+    top: 8px;
+    left: 147px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    text-align: center;
+    position: relative;
+}
+.button1 {
+    width: Hug (102px) px;
+    height: Hug (46px) px;
+    margin-top: 61px;
+    margin-left: 915px;
+    padding: 12px 20px 12px 20px;
+    gap: 0px;
+    border-radius: 30px 30px 30px 30px;
+    border: none;
+    opacity: 0px;
+    background: #aca0eb;
+    font-family: Pretendard;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    display: none;
+}
+#button1.active {
+    opacity: 100%;
+    display: block;
+}
+
+.modal_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 408px;
+    height: 242px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 0px;
+    background: #ffffff;
+    position: relative;
+    top: 40%;
+    left: 40%;
+}
+.modal > h2 {
+    size: 24px;
+    margin: 48px auto 0px;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.64px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.modal > p {
+    margin: 24px auto 0px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}
+#delcomment {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1457px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.modalbutton1 {
+    background: #242424;
+    color: white;
+    margin-right: 16px;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.modalbutton2 {
+    background: #c4a5fa;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.flexbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flexbutton > button {
+    margin-top: 24px;
+    width: 127px;
+    height: 44px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+}

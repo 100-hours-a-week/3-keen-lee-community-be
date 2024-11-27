@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="Utf-8" />
+        <link rel="stylesheet" href="feserver.css" />
+        <title>로그인</title>
+        <div class="head">
+            <div class="title">아무 말 대잔치</div>
+        </div>
+        <hr />
+    </head>
+    <button id="show">더미데이터 가져오기</button>
+    <div id="text">qwer</div>
+        <script>
+            function goUrl() {
+              fetch('https://jsonplaceholder.typicode.com/posts/1')
+              // 데이터를 JSON 형태로 변환
+              .then(response => response.json())
+              // data는 윗줄의 response.json()의 결과값을 말함.
+              .then(data => {
+                console.log(data)
+                const text =document.getElementById('text')
+                text.textContent = JSON.stringify(data);
+              })
+              // 오류 처리
+              .catch(error => console.error('Fetch 오류:', error));
+            }
+            document.getElementById('show').addEventListener('click', goUrl);
+        </script>
+    </body>
+</html>

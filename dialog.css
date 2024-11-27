@@ -1,0 +1,216 @@
+body {
+    background: #f4f5f7;
+}
+.head {
+    display: flex;
+    width: 1920px;
+    height: 104px;
+    align-items: center;
+    position: relative;
+    border: 0px 0px 1px 0px;
+    border-bottom: 1px solid #000000;
+}
+.title {
+    width: 206px;
+    height: 32px;
+    top: 36px;
+    left: 857px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.img1 {
+    width: 36px;
+    height: 36px;
+    top: 36px;
+    left: 99px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    border-radius: 100%;
+}
+.felx1 {
+    position: absolute;
+    width: 163px;
+    height: 219px;
+    top: 0px;
+    left: 1097px;
+    display: flex;
+    flex-direction: column;
+}
+.felx2 > div {
+    width: 67px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+    width: Hug (115px) px;
+    height: Hug (35px) px;
+    padding: 10px 24px 10px 24px;
+    gap: 8px;
+    opacity: 0px;
+    background: #d9d9d9;
+}
+.felx2 {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    top: 44px;
+    align-items: center;
+}
+.bodytitle {
+    width: 280px;
+    height: 62px;
+    margin-top: 40px;
+    margin-left: 819px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: center;
+}
+.bodytitle > span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: center;
+}
+.button {
+    color: #ffffff;
+    width: 138px;
+    height: 39px;
+    margin-top: 24px;
+    margin-left: 1118px;
+    border-radius: 16px 16px 16px 16px;
+    background: #aca0eb;
+}
+.ex1 {
+    margin: 16px 664px 0px;
+    width: 592px;
+    height: 169px;
+    gap: 0px;
+    border-radius: 16px 16px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.flex1 {
+    display: flex;
+    width: 544px;
+    height: 59px;
+    flex-direction: column;
+    margin: 18px auto;
+}
+.minititle {
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 31.2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex3 {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.good {
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Pretendard;
+    size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.comment {
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    margin-left: 10px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.views {
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.date {
+    width: 133px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.line {
+    border: 1px solid #00000029;
+    margin: 0;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    text-align: left;
+    margin-right: auto;
+}
+.img2 {
+    margin-top: 16px;
+    width: 36px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100%;
+}
+.nickname {
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 24px;
+}

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="Utf-8" />
+        <link rel="stylesheet" href="adddialog.css" />
+        <title>개시글 추가</title>
+    </head>
+
+    <body>
+        <div class="head">
+            <div class="title">아무 말 대잔치</div>
+            <img
+                class="img1"
+                src="스크린샷 2024-10-28 오후 5.29.48.png"
+                alt=""
+            />
+            <div id="back" class="back">&lt;</div> 
+        </div>
+        <h2 class="bodytitle">개시글작성</h2>
+
+        <div class="ex">
+            <h2 id="minititle" class="minititle">제목*</h2>
+            <hr id="hr1" class="hr1" />
+            <input
+                class="texttitle"
+                id="texttitle"
+                placeholder="제목을 입력해주세요.(최대 26글자)"
+            />
+            <hr id="hr2" class="hr2" />
+            <h2 id="minititle2" class="minititle2">내용*</h2>
+            <hr id="hr3" class="hr3" />
+            <input
+                class="content"
+                id="content"
+                placeholder="내용을 입력해주세요."
+            />
+            <hr id="hr4" class="hr4" />
+            <p class="helper">*helper text</p>
+            <div class="flex">
+                <div id="flax1" class="flax1">
+                    <p id="good" class="good">이미지</p>
+                    <div id="flex2" class="flex2">
+                        <input class="input" id="input" type="file" />
+                    </div>
+                </div>
+            </div>
+            <button id="enter" class="enter">완료</button>
+            <script src="adddialog.js"></script>
+        </div>
+    </body>
+</html>

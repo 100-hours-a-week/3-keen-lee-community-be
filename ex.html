@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="Utf-8" />
+        <link rel="stylesheet" href="ex.css" />
+        <title>로그인</title>
+    </head>
+
+    <body>
+        <div class="head">
+            <div class="title">아무 말 대잔치</div>
+        </div>
+        <div class="body">
+            <h2 class="bodytitle">로그인</h2>
+            <div class="log">
+                <p class="textemail">이메일</p>
+                <input
+                    class="email"
+                    id="email"
+                    type="email"
+                    placeholder="이메일을 입력하세요"
+                />
+                <p class="textpassword">비밀번호</p>
+                <input
+                    class="password"
+                    id="password"
+                    type="password"
+                    minlength="8"
+                    maxlength="20"
+                    placeholder="비밀번호를 입력하세요"
+                />
+                <p class="helper">*helper text</p>
+            </div>
+            <div class="login">
+                <button id="login">로그인</button>
+            </div>
+            <div>
+                <div id="signup" class="signup" href="sinup.html">회원가입</div>
+            </div>
+        </div>
+    </body>
+    <script src="ex.js"></script>
+</html>
